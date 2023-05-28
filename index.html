@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./assets/star-fav-hover.svg" type="image/svg">
+  <script src="./js/main.js" type="module" defer></script>
+  <title>GitFav</title>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <img src="./assets/gitvfav.svg" alt="Logo GitFav">
+      <div class="search">
+        <label for="github-search" class="sr-only">Digite o Github username que quer favoritar</label>
+        
+        <input id="github-search" type="text" placeholder="Digite o Github username que quer favoritar">
+        <button>Favoritar</button>
+      </div>
+    </header>
+    <!-- O atributo cellspacing dá o espaço entre células ou tira, evitando utilizar border-collapse no css. -->
+    <table cellspacing="0"> 
+      <thead>
+        <tr>
+          <th>User</th>
+          <th>Repositories</th>
+          <th>Followers</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+      <tfoot>
+        <tr class="no-favorites hide">
+          <td colspan="4">
+            <div>
+              <img src="./assets/star-icon.svg" alt="Figura de uma estrela sorrindo">
+              <span>Nenhum favorito ainda</span>
+            </div>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</body>
+</html>
