@@ -19,7 +19,7 @@ Disponível aqui: https://lucaslirah.github.io/gitfav/
 <br>
 
 <p align="center">
-  <img alt="https://i.imgur.com/lESfwcJ.png" width="100%">
+  <img alt=Gitfav" src="https://i.imgur.com/lESfwcJ.png" width="100%">
 </p>
 
 
